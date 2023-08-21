@@ -8,8 +8,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
     <link rel="manifest" href="/manifest.json"/>
     <meta name="theme-color" content="white"/>
-    <link rel="icon" href="/imagens/" />
-
 </head>
 <body>
     <div class="container">
@@ -17,45 +15,39 @@
         <div class="input-field">
             <div class="equipe1" id="equipe1Div">
                 <label for="equipe1" class="nome">Nome da Equipe 1: </label>
-                    <input type="text" id="equipe1Input" placeholder="Equipe 1">
-        
-    <div class="points"> 
-        <button id="time1Menos1" class="addpt">-1</button>
-        <button id="time1Mais1" class="addpt">+1</button>
-        <button id="time1Mais3" class="addpt">+3</button>
-        <button id="time1Mais6" class="addpt">+6</button>
-        <button id="time1Mais9" class="addpt">+9</button>
-        <button id="time1Mais12" class="addpt">+12</button>
+                <input type="text" id="equipe1Input" placeholder="Equipe 1">
+                <div class="points"> 
+                    <button id="time1Menos1" class="addpt">-1</button>
+                    <button id="time1Mais1" class="addpt">+1</button>
+                    <button id="time1Mais3" class="addpt">+3</button>
+                    <button id="time1Mais6" class="addpt">+6</button>
+                    <button id="time1Mais9" class="addpt">+9</button>
+                    <button id="time1Mais12" class="addpt">+12</button>
+                </div>
+                <div class="pontos">
+                    <p>Tentos: <span id="pontosTime1">0</span></p>
+                    <p>Vitórias: <span id="vitoriaTime1">0</span></p>
+                </div>
+                <div class="equipe2" id="equipe2Div">
+                    <label for="equipe2" class="nome">Nome da Equipe 2: </label>
+                    <input type="text" id="equipe2Input" placeholder="Equipe 2">
+                    <div class="points">     
+                        <button id="time2Menos1" class="addpt">-1</button>
+                        <button id="time2Mais1" class="addpt">+1</button>
+                        <button id="time2Mais3" class="addpt">+3</button>
+                        <button id="time2Mais6" class="addpt">+6</button>
+                        <button id="time2Mais9" class="addpt">+9</button>
+                        <button id="time2Mais12" class="addpt" class="doze">+12</button>
+                    </div>
+                    <div class="pontos">
+                        <p>Tentos: <span id="pontosTime2">0</span></p>
+                        <p>Vitórias: <span id="vitoriaTime2">0</span></p>
+                    </div>
+                </div>
+                <button id="zerar" class="zerar">Zerar Contador</button>
+            </div>
+        </div>
     </div>
-
-    <div class="pontos">
-        <p>Pontos: <span id="pontosTime1">0</span></p>
-        <p>Vitórias: <span id="vitoriaTime1">0</span></p>
-    </div>
-    
-    <div class="equipe2" id="equipe2Div">
-        <label for="equipe2" class="nome">Nome da Equipe 2: </label>
-        <input type="text" id="equipe2Input" placeholder="Equipe 2">
-
-    <div class="points">     
-        <button id="time2Menos1" class="addpt">-1</button>
-        <button id="time2Mais1" class="addpt">+1</button>
-        <button id="time2Mais3" class="addpt">+3</button>
-        <button id="time2Mais6" class="addpt">+6</button>
-        <button id="time2Mais9" class="addpt">+9</button>
-        <button id="time2Mais12" class="addpt" class="doze">+12</button>
-    </div>
-
-    <div class="pontos">
-        <p>Pontos: <span id="pontosTime2">0</span></p>
-        <p>Vitórias: <span id="vitoriaTime2">0</span></p>
-    </div>
-    </div>
-
-        <button id="zerar" class="zerar" >Zerar Contador</button>
-    </div>
-</div>
-
     <script src='/javascript/script.js'></script>
 </body>
 </html>

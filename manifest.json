@@ -1,16 +1,22 @@
 {
-    "name": "Minha primeira pwa App Progressiva",
-    "short_name": "Primeira PWA",
+    "name": "Contador de pontos para truco",
+    "short_name": "Cont Truco",
     "icons": [
         {
-            "src": "/imagens",
+            "src": "",
             "sizes": "256x256",
-            "type": "/imagens/png"
+            "type": "image/png"
         },
         {
-            "src": "/imagens",
+            "src": "",
             "sizes": "512x512",
-            "type": "/imagens/png"
+            "type": "image/png"
+        },
+        {
+            "src": "",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "lang": "pt-BR",

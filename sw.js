@@ -1,5 +1,5 @@
-let cacheName = "my-first-pwa";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js"];
+let cacheName = "Truco-Contador";
+let filesToCache = ["/", "/index.html", "/css/style.css", "/javascript/script.js"];
 
 self.addEventListener("install", (e) => {
     e.waitUntil(

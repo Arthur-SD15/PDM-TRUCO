@@ -5,32 +5,28 @@ window.onload = () => {
     }
 };
 
+let pontosTime1 = 0;
+let pontosTime2 = 0;
+let vitoriaTime1 = 0;
+let vitoriaTime2 = 0;
+
+const zerar = document.getElementById('zerar');
 const pontosTime1Dif = document.getElementById('pontosTime1');
 const pontosTime2Dif = document.getElementById('pontosTime2');
-
 const time1Menos1 = document.getElementById('time1Menos1');
 const time1Mais1 = document.getElementById('time1Mais1');
 const time1Mais3 = document.getElementById('time1Mais3');
 const time1Mais6 = document.getElementById('time1Mais6');
 const time1Mais9 = document.getElementById('time1Mais9');
 const time1Mais12 = document.getElementById('time1Mais12');
-
 const time2Menos1 = document.getElementById('time2Menos1');
 const time2Mais1 = document.getElementById('time2Mais1');
 const time2Mais3 = document.getElementById('time2Mais3');
 const time2Mais6 = document.getElementById('time2Mais6');
 const time2Mais9 = document.getElementById('time2Mais9');
 const time2Mais12 = document.getElementById('time2Mais12');
-
 const vitoriaTime1Dif = document.getElementById('vitoriaTime1');
 const vitoriaTime2Dif = document.getElementById('vitoriaTime2');
-
-const zerar = document.getElementById('zerar');
-
-let pontosTime1 = 0;
-let pontosTime2 = 0;
-let vitoriaTime1 = 0;
-let vitoriaTime2 = 0;
 
 function attPonto() {
     pontosTime1Dif.textContent = pontosTime1;
