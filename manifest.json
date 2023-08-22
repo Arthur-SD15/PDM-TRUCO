@@ -3,19 +3,19 @@
     "short_name": "Cont Truco",
     "icons": [
         {
-            "src": "images/icon-256.jpg",
+            "src": "images/maskable-icon.png",
             "sizes": "256x256",
-            "type": "image/jpg"
+            "type": "image/png"
         },
         {
-            "src": "images/icon-512.jpg",
+            "src": "images/maskable-icon.png",
             "sizes": "512x512",
-            "type": "image/jpg"
+            "type": "image/png"
         },
         {
-            "src": "images/maskable-icon.jpg",
+            "src": "images/maskable-icon.png",
             "sizes": "256x256",
-            "type": "image/jpg",
+            "type": "image/png",
             "purpose": "maskable"
         }
     ],
@@ -23,5 +23,5 @@
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "white",
-    "theme": "white"
+    "theme_color": "white"
 }
